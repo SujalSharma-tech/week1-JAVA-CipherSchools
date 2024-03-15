@@ -16,7 +16,7 @@ class student {
     String name;
     int marks;
 
-    boolean checkpass() {
+    boolean checkPass() {
         if (marks >= 40) {
             return true;
         } else {
@@ -48,19 +48,19 @@ public class Lecture8 {
         System.out.println(polo.year);
 
         student s1 = new student();
-        s1.name = "sanjay";
-        s1.marks = 30;
+        s1.name = "ram";
+        s1.marks = 17;
         student s2 = new student();
-        s2.name = "matta";
-        s2.marks = 90;
-        System.out.println(s1.checkpass());
-        System.out.println(s2.checkpass());
+        s2.name = "aman";
+        s2.marks = 80;
+        System.out.println(s1.checkPass());
+        System.out.println(s2.checkPass());
         Lecture8 cf = new Lecture8();
-        System.out.println(cf.max(20, 10, 3));
+        System.out.println(cf.max(18, 1, 30));
         Scanner sc = new Scanner(System.in);
         s1.name = sc.nextLine();
         s1.marks = sc.nextInt();
-        System.out.println(s1.checkpass());
+        System.out.println(s1.checkPass());
         char c = 'a';
         switch (c) {
             case 'a':
